@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Untuk Kamu ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            text-align: center;
+            padding: 40px;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-top: 50px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .heart {
+            font-size: 80px;
+            animation: pulse 1.5s infinite;
+            margin-top: 30px;
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background: #ff4f70;
+            color: #fff;
+            cursor: pointer;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        button:hover {
+            background: #ff244f;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
+    <script>
+        function pesan() {
+            alert("Aku sayang kamu mas dandi ❤️");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Hai Cinta ❤️</h1>
+    <p>Aku cuma mau bilang…</p>
+    <p>Kamu itu spesial banget buat aku.</p>
+    <div class="heart">💖</div>
+
+    <button onclick="pesan()">Klik ini kalau kamu sayang aku 😘</button>
+</body>
+</html>
